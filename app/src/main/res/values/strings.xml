@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="inicio">My Favourite Pet</string>
+    <string name="img_home_descrip">Logo</string>
+    <string name="iniciar">Ir a Lista de Mascotas</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Hipopotamo">Hipopotamo</string>
+    <string name="Conejo">conejo</string>
+    <string name="Elefante">elefante</string>
+    <string name="Oveja">Oveja</string>
+    <string name="Koala">Koala</string>
+    <string name="Leon">Leon</string>
+    <string name="Panda">Panda</string>
+    <string name="Perro">Perro</string>
+    <string name="Llama">Llama</string>
+    <string name="Pinguino">Pinguino</string>
+    <string name="Pavo">PavoReal</string>
+    <string name="Vaca">Vaca</string>
+    <string name="enviar">Enviar</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre</string>
+    <string name="ingrese_su_mail">Ingrese su Mail</string>
+    <string name="Desarrollador">Aquí se deben incluir los datos del Desarrollador del Proyecto</string>
+
+    <string name="Favorito">Mascota Favorita</string>
+</resources>

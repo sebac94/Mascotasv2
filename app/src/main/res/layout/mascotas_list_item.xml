@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/default_half_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_main_list_item"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:contentDescription="TODO"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/image_bone_rate_down"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="@dimen/default_padding"
+            android:src="@drawable/hueso"
+            app:layout_constraintEnd_toStartOf="@id/txt_nombreFavorito"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="TODO"
+            app:layout_constraintTop_toBottomOf="@+id/image_main_list_item" />
+
+        <TextView
+            android:id="@+id/txt_nombreFavorito"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/default_padding"
+            app:layout_constraintBottom_toBottomOf="@+id/image_bone_rate_down"
+            app:layout_constraintEnd_toStartOf="@id/text_rate_int"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintStart_toEndOf="@+id/image_bone_rate_down"
+            app:layout_constraintTop_toTopOf="@+id/image_bone_rate_down"
+            android:textStyle="bold"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/text_rate_int"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/default_padding"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_nombreFavorito"
+            app:layout_constraintEnd_toStartOf="@id/image_bone_rate_up"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@+id/txt_nombreFavorito"
+            app:layout_constraintTop_toTopOf="@+id/txt_nombreFavorito"
+            tools:text="@tools:sample/lorem" />
+
+        <ImageView
+            android:id="@+id/image_bone_rate_up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/default_padding"
+            android:src="@drawable/hueso"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@+id/text_rate_int"
+            app:layout_constraintTop_toTopOf="@+id/text_rate_int"
+            android:contentDescription="TODO" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
